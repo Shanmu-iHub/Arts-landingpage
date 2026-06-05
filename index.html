@@ -1893,8 +1893,28 @@
                                     <a href="#campus-life"
                                         class="nav-link text-white hover:text-red-300 whitespace-nowrap">Campus
                                         Life</a>
-                                    <a href="https://main.drsnsrcas.ac.in/nirfdrsnsrcas/" target="_blank"
-                                        class="nav-link text-white hover:text-red-300 whitespace-nowrap">NIRF</a>
+                                    <!-- Others Dropdown -->
+                                    <div class="relative group py-2"
+                                        onmouseenter="this.querySelector('.dropdown-content').style.display='block'"
+                                        onmouseleave="this.querySelector('.dropdown-content').style.display='none'">
+                                        <button
+                                            class="nav-link text-white hover:text-red-300 whitespace-nowrap flex items-center focus:outline-none">
+                                            Others
+                                            <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                                        </button>
+                                        <!-- Dropdown Content -->
+                                        <div class="absolute left-0 top-full w-56 z-50 dropdown-content"
+                                            style="display: none;">
+                                            <div class="bg-white rounded-md shadow-lg py-1 border border-gray-200">
+                                                <a href="https://main.drsnsrcas.ac.in/nirfdrsnsrcas/" target="_blank"
+                                                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-red-500">NIRF</a>
+                                                <button
+                                                    onclick="window.open('https://main.snsgroups.com/mandatory-disclosure/index.html#/arts', '_blank')"
+                                                    class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-red-500">Mandatory
+                                                    Disclosure</button>
+                                            </div>
+                                        </div>
+                                    </div>
 
                                     <!-- Stacked Apply Now & TNEA Code -->
                                     <div class="flex flex-col items-center space-y-1 ml-2">
@@ -1935,8 +1955,25 @@
                                     class="mobile-link block w-full text-left hover:text-red-300 transition-colors py-3 text-base sm:text-lg border-b border-gray-700">Campus
                                     Life</a>
                             </li>
-                            <li><a href="https://main.drsnsrcas.ac.in/nirfdrsnsrcas/" target="_blank"
-                                    class="block w-full text-left hover:text-red-300 transition-colors py-3 text-base sm:text-lg border-b border-gray-700">NIRF</a>
+                            <li class="border-b border-gray-700">
+                                <button
+                                    onclick="const el = document.getElementById('mobile-others-menu'); el.classList.toggle('hidden'); const icon = this.querySelector('i'); if(el.classList.contains('hidden')) { icon.classList.remove('fa-chevron-up'); icon.classList.add('fa-chevron-down'); } else { icon.classList.remove('fa-chevron-down'); icon.classList.add('fa-chevron-up'); }"
+                                    class="flex justify-between items-center w-full text-left hover:text-red-300 transition-colors py-3 text-base sm:text-lg">
+                                    <span>Others</span>
+                                    <i class="fas fa-chevron-down text-sm"></i>
+                                </button>
+                                <ul id="mobile-others-menu" class="hidden pl-4 pb-2 space-y-2">
+                                    <li>
+                                        <a href="https://main.drsnsrcas.ac.in/nirfdrsnsrcas/" target="_blank"
+                                            class="block w-full text-left text-gray-300 hover:text-red-300 py-2">NIRF</a>
+                                    </li>
+                                    <li>
+                                        <button
+                                            onclick="window.open('https://main.snsgroups.com/mandatory-disclosure/index.html#/arts', '_blank')"
+                                            class="block w-full text-left text-gray-300 hover:text-red-300 py-2">Mandatory
+                                            Disclosure</button>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="pt-4">
                                 <a href="https://main.snsgroups.com/EnquiryNow/" target="_blank"
