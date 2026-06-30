@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="static/images/Favicon.png?v=2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. SNS Rajalakshmi College of Arts &amp; Science | NAAC A+ | Coimbatore</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="Dr SNS Rajalakshmi College of Arts and Science, DRSNSRCAS, best arts and science college in Coimbatore, NAAC A+ college Coimbatore, autonomous college Coimbatore, B.Sc AI Data Science Coimbatore, BCA college Coimbatore, BBA college Coimbatore, MBA co" />
+<meta name="description" content="Dr. SNS Rajalakshmi College of Arts & Science — Autonomous, NAAC A+, NIRF Ranked (101–150). B.Sc, B.Com, BCA, BBA, MBA, MCA with AI, Data Science & Design Thinking curriculum. 9 LPA highest package. Admissions 2026 open. College Code 326. Coimbatore, Tamil Nadu." />
+    <link rel="icon" type="image/png" href="Dr.SNSRCAS.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* ================= RESET & BASE ================= */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        /* ================= CONTAINER ================= */
+        .container {
+            max-width: 640px;
+            margin: 40px auto;
+            background: #ffffff;
+            border-radius: 24px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        /* ================= HEADER ================= */
+        .header {
+            background: linear-gradient(135deg, #00A0E3 0%, #0284c7 100%);
+            padding: 40px 30px;
+            text-align: center;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            font-size: 16px;
+            opacity: 0.95;
+            font-weight: 500;
+        }
+
+        /* ================= FORM SECTION ================= */
+        .form-section {
+            padding: 40px 30px;
+        }
+
+        .form-title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .form-title h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 8px;
+        }
+
+        .form-title p {
+            font-size: 14px;
+            color: #718096;
+        }
+
+        /* ================= BITRIX FORM RESET ================= */
+        .b24-form-wrapper {
+            background: transparent !important;
+            border: none !important;
+            padding: 0 !important;
+            box-shadow: none !important;
+            margin: 0 !important;
+        }
+
+        .b24-form-header {
+            display: none !important;
+        }
+
+        .b24-form-field {
+            margin-bottom: 24px !important;
+            position: relative !important;
+        }
+
+        /* Remove Bitrix auto separators and double lines */
+        .b24-form-separator,
+        .b24-form-field-separator,
+        .b24-form-field-shadow,
+        .b24-form-control-shadow,
+        .b24-form-field-line,
+        .b24-form-control-line,
+        .b24-form-field-line-1,
+        .b24-form-field-line-2,
+        .b24-form-field-line-3,
+        [class*="b24-form-field-line"],
+        [class*="b24-form-control-line"],
+        .b24-form-field::before,
+        .b24-form-field::after,
+        .b24-form-control::before,
+        .b24-form-control::after {
+            display: none !important;
+            content: none !important;
+            height: 0 !important;
+            border: none !important;
+            position: absolute !important;
+            opacity: 0 !important;
+            visibility: hidden !important;
+            pointer-events: none !important;
+            z-index: -1 !important;
+        }
+
+        /* ================= LABEL HANDLING ================= */
+        .b24-form-control-label {
+            position: absolute !important;
+            opacity: 0 !important;
+            pointer-events: none !important;
+        }
+
+        /* ================= INPUT & SELECT FIELDS ================= */
+        .b24-form-control,
+        select.b24-form-control {
+            width: 100% !important;
+            background: #f7fafc !important;
+            border: 2px solid #e2e8f0 !important;
+            border-radius: 12px !important;
+            padding: 14px 18px !important;
+            font-size: 15px !important;
+            font-family: 'Poppins', sans-serif !important;
+            color: #1a202c !important;
+            box-shadow: none !important;
+            transition: all 0.3s ease !important;
+            appearance: none !important;
+            -webkit-appearance: none !important;
+            -moz-appearance: none !important;
+        }
+
+        .b24-form-control::placeholder {
+            color: #a0aec0 !important;
+            font-weight: 400 !important;
+        }
+
+        .b24-form-control:focus {
+            border-color: #00A0E3 !important;
+            background: #ffffff !important;
+            outline: none !important;
+            box-shadow: 0 0 0 3px rgba(0, 160, 227, 0.1) !important;
+        }
+
+        /* ================= DROPDOWN ================= */
+        .b24-form-dropdown {
+            border-radius: 12px !important;
+            border: 2px solid #ff000000  !important;
+            box-shadow: 0 10px 25px rgba(253, 251, 251, 0) !important;
+             background: white !important;
+        }
+
+        .b24-form-dropdown-item {
+            padding: 12px 18px !important;
+            font-size: 15px !important;
+            font-family: 'Poppins', sans-serif !important;
+            color: #4d7399 !important;
+            transition: all 0.2s ease !important;
+        }
+
+        .b24-form-dropdown-item:hover {
+            background: #f7fafc !important;
+            color: #00A0E3 !important;
+        }
+
+        /* ================= SUBMIT BUTTON ================= */
+        .b24-form-btn {
+            width: 100% !important;
+            margin-top: 28px !important;
+            padding: 16px 24px !important;
+            border-radius: 12px !important;
+            background: #00A0E3 !important;
+            color: #ffffff !important;
+            font-size: 16px !important;
+            font-weight: 600 !important;
+            border: none !important;
+            font-family: 'Poppins', sans-serif !important;
+            cursor: pointer !important;
+            transition: all 0.3s ease !important;
+            box-shadow: 0 4px 15px rgba(0, 160, 227, 0.4) !important;
+        }
+
+        .b24-form-btn:hover {
+            transform: translateY(-2px) !important;
+            box-shadow: 0 6px 20px rgba(0, 160, 227, 0.5) !important;
+            background: #0284c7 !important;
+        }
+
+        .b24-form-btn:active {
+            transform: translateY(0) !important;
+        }
+
+        /* Bitrix form container visibility */
+        #bitrix-form-container {
+            position: relative;
+            z-index: 1000;
+        }
+
+        /* Target all yellow/amber Bitrix elements */
+        .b24-form-header, 
+        .b24-form-control-required-symbol,
+        .b24-form-field-icon,
+        .b24-form-question-icon {
+            color: #00A0E3 !important;
+        }
+
+        .b24-form-control-required-symbol {
+            color: #ff4d4d !important;
+        }
+        
+        /* Remove any double lines or shadows below fields */
+        [class*="line"],
+        [class*="shadow"] {
+            box-shadow: none !important;
+            border: none !important;
+        }
+
+        .b24-form-control-shadow,
+        .b24-form-field-shadow,
+        .b24-form-shadow,
+        .b24-form-field-line,
+        .b24-form-control-line,
+        .b24-form-field-line-1,
+        .b24-form-field-line-2 {
+            display: none !important;
+            height: 0 !important;
+            overflow: hidden !important;
+        }
+
+        /* Ensure no extra padding at top of form */
+        .b24-form {
+            padding-top: 0 !important;
+            margin-top: 0 !important;
+        }
+
+        /* ================= FOOTER TEXT ================= */
+        .b24-form-sign {
+            margin-top: 24px !important;
+            font-size: 12px !important;
+            color: #a0aec0 !important;
+            text-align: center !important;
+        }
+
+        /* ================= INFO SECTION ================= */
+        .info-section {
+            background: #f7fafc;
+            padding: 30px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: start;
+            gap: 12px;
+        }
+
+        .info-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #00A0E3 0%, #0284c7 100%);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+
+        .info-content h3 {
+            font-size: 14px;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 4px;
+        }
+
+        .info-content p {
+            font-size: 13px;
+            color: #718096;
+            line-height: 1.5;
+        }
+
+        .info-content a {
+            color: #00A0E3;
+            text-decoration: none;
+        }
+
+        .info-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                margin: 20px auto;
+                border-radius: 16px;
+            }
+
+            .header {
+                padding: 30px 20px;
+            }
+
+            .header h1 {
+                font-size: 24px;
+            }
+
+            .header p {
+                font-size: 14px;
+            }
+
+            .form-section {
+                padding: 30px 20px;
+            }
+
+            .form-title h2 {
+                font-size: 20px;
+            }
+
+            .info-section {
+                padding: 20px;
+            }
+
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ================= LOADING ANIMATION ================= */
+        .loading {
+            text-align: center;
+            padding: 10px;
+            color: #718096;
+        }
+
+        .spinner {
+            border: 3px solid #f3f4f6;
+            border-top: 3px solid #00A0E3;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 16px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+       
+        <!-- Form Section -->
+        <div class="form-section">
+            <div class="form-title">
+                <h2>Admission and Enquiry Form</h2>
+                <p>Fill out the form below and we'll get back to you shortly</p>
+            </div>
+
+            <!-- Loading State -->
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Loading form...</p>
+            </div>
+
+            <!-- Bitrix24 Form -->
+            <div id="bitrix-form-container"></div>
+            <script data-b24-form="inline/52/2qc8ap" data-skip-moving="true" async
+                src="https://cdn.bitrix24.com/b11752903/crm/form/loader_52.js"></script>
+        </div>
+
+
+
+    <script>
+        // Hide loading spinner when form loads
+        setTimeout(function () {
+            var loading = document.getElementById('loading');
+            if (loading) {
+                loading.style.display = 'none';
+            }
+        }, 3000);
+
+        // Advanced Form Fixer for Bitrix24
+        const snsColleges = [
+            "SNS College of Technology",
+            "SNS College of Engineering",
+            "Dr. SNS Rajalakshmi College of Arts and Science",
+            "SNS College of Allied Health Science",
+            "SNS College of Pharmacy",
+            "SNS College of Nursing",
+            "SNS College of Physiotherapy",
+            "Dr. SNS College of Education"
+        ];
+
+        function applyFormFixes() {
+            const fields = document.querySelectorAll('.b24-form-field');
+            fields.forEach(field => {
+                const label = field.querySelector('.b24-form-control-label');
+                const input = field.querySelector('.b24-form-control');
+                const container = field;
+
+                // 1. Force-hide any lines Bitrix injects
+                field.querySelectorAll('[class*="line"]').forEach(line => {
+                    line.style.setProperty('display', 'none', 'important');
+                    line.style.setProperty('opacity', '0', 'important');
+                    line.style.setProperty('height', '0', 'important');
+                });
+
+                if (label) {
+                    const text = label.textContent.trim();
+
+                    // Remove Admission To Grade
+                    if (text.includes('Admission To Grade')) {
+                        container.style.display = 'none';
+                        return;
+                    }
+
+                    // Replace Academy field with "Choose College" Dropdown
+                    if (text.includes('SNSACD') || text.includes('SNS Academy') || text.includes('CBSE SCHOOL')) {
+                        label.textContent = "Choose College *";
+
+                        if (input && input.tagName !== 'SELECT' && !input.dataset.replaced) {
+                            const select = document.createElement('select');
+                            select.className = input.className;
+                            select.name = input.name;
+                            select.required = true;
+                            select.dataset.replaced = "true";
+
+                            select.innerHTML = '<option value="">Choose College *</option>' +
+                                snsColleges.map(c => `<option value="${c}">${c}</option>`).join('');
+
+                            input.parentNode.replaceChild(select, input);
+
+                            select.addEventListener('change', (e) => {
+                                const event = new Event('input', { bubbles: true });
+                                select.dispatchEvent(event);
+                            });
+                        }
+                        return;
+                    }
+
+                    // Rename Name of the Child -> Name of the Candidate
+                    if (text.includes('Name of the Child')) {
+                        label.textContent = text.replace('Name of the Child', 'Name of the Candidate');
+                        if (input && input.tagName !== 'SELECT') {
+                            let required = text.includes('*');
+                            input.placeholder = 'Name of the Candidate' + (required ? ' *' : '');
+                        }
+                    }
+
+                    // Rename Parent Name -> Parent / Guardian Name
+                    if (text.includes('Parent Name')) {
+                        label.textContent = text.replace('Parent Name', 'Parent / Guardian Name');
+                        if (input && input.tagName !== 'SELECT') {
+                            let required = text.includes('*');
+                            input.placeholder = 'Parent / Guardian Name' + (required ? ' *' : '');
+                        }
+                    }
+
+                    // Generic Placeholder Fix
+                    if (input && input.tagName !== 'SELECT' && !input.placeholder) {
+                        let cleanText = text.replace(/\s*\*$/, '').trim();
+                        let required = text.includes('*');
+                        input.placeholder = required ? cleanText + ' *' : cleanText;
+                    }
+                }
+            });
+        }
+
+        const observer = new MutationObserver((mutations) => {
+            mutations.forEach((mutation) => {
+                if (mutation.addedNodes.length) applyFormFixes();
+            });
+        });
+
+        const target = document.getElementById('bitrix-form-container');
+        if (target) observer.observe(target, { childList: true, subtree: true });
+
+        applyFormFixes();
+        setInterval(applyFormFixes, 1000);
+    </script>
+
+    <!-- Mobile Bottom Navigation -->
+   
+    <div class="h-24 md:hidden"></div>
+</body>
+
+</html>
