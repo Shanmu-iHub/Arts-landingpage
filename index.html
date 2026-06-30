@@ -174,7 +174,7 @@
 
         .floating-chat-container {
             position: fixed;
-            bottom: 0.5rem;
+            bottom: 5.5rem;
             right: 1rem;
             display: flex;
             flex-direction: column-reverse;
@@ -5139,6 +5139,47 @@
         "https://cdn.bitrix24.com/b11752903/crm/tag/call.tracker.js"
     );
 </script>
+    <!-- Mobile Bottom Navigation -->
+    <div
+        class="fixed bottom-0 left-0 w-full bg-white shadow-[0_-4px_10px_rgba(0,0,0,0.05)] z-50 md:hidden flex justify-between items-end px-2 pb-5 pt-2 rounded-t-2xl">
+        <!-- Home -->
+        <a href="index.html" class="flex flex-col items-center justify-center w-1/5 pb-1" style="color: #b0cb1f;">
+            <i class="fas fa-home text-xl mb-1"></i>
+            <span class="text-[10px] font-semibold mt-1">Home</span>
+        </a>
+
+        <!-- Placements -->
+        <a href="https://iipc.snsgroups.com/" target="_blank"
+            class="flex flex-col items-center justify-center w-1/5 pb-1 text-gray-400 hover:text-[#b0cb1f] transition-colors">
+            <i class="fas fa-chart-line text-xl mb-1"></i>
+            <span class="text-[10px] font-medium mt-1">Placements</span>
+        </a>
+
+        <!-- Apply (Floating/Prominent) -->
+        <div class="w-1/5 flex flex-col items-center justify-end relative pb-1">
+            <a href="https://main.snsgroups.com/EnquiryNow/" target="_blank"
+                class="absolute bottom-6 flex items-center justify-center w-14 h-14 rounded-full text-white shadow-lg border-4 border-white transform transition hover:scale-105 active:scale-95 z-10" style="background-color: #b0cb1f;">
+                <i class="fas fa-pen-to-square text-2xl"></i>
+            </a>
+            <span class="text-[10px] font-medium text-gray-400 mt-1">Apply</span>
+        </div>
+
+        <!-- About Us -->
+        <a href="about.html"
+            class="flex flex-col items-center justify-center w-1/5 pb-1 text-gray-400 hover:text-[#b0cb1f] transition-colors">
+            <i class="fas fa-info-circle text-xl mb-1"></i>
+            <span class="text-[10px] font-medium mt-1">About</span>
+        </a>
+
+        <!-- Contact Us -->
+        <a href="contact.html"
+            class="flex flex-col items-center justify-center w-1/5 pb-1 text-gray-400 hover:text-[#b0cb1f] transition-colors">
+            <i class="fas fa-phone-alt text-xl mb-1"></i>
+            <span class="text-[10px] font-medium mt-1">Contact</span>
+        </a>
+    </div>
+    <!-- Ensure body doesn't overlap with fixed bottom nav -->
+    <div class="h-24 md:hidden"></div>
 </body>
 
 </html>
