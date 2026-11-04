@@ -8,7 +8,7 @@ with open(file_path, "r") as f:
 ug_cs_courses = [
     "BCA", "Full Stack Web Development", "AI and Data Science", "Data Analytics",
     "Data Science & Visualization", "DevOps & Cloud", "Cyber Security",
-    "Computer Science (AI, ML & DS) *", "Agentic AI*", "Generative AI*",
+    "Computer Science (AI, ML & DS) ", "Agentic AI", "Generative AI",
     "Information Technology"
 ]
 
