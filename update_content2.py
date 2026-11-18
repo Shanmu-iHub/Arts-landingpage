@@ -44,15 +44,15 @@ template_pg = '''
 
 programs = {
     "trending": [
-        {"title": "Artificial Intelligence and Data Science", "sub": "B.Sc. AIDS", "desc": "Artificial Intelligence, Machine Learning, Deep Learning, Data Structures and Algorithms, Big Data Analytics", "icon": "fas fa-brain", "bg": "tech-gradient", "dur": "3 Years"},
-        {"title": "Data Science", "sub": "B.Sc. DS", "desc": "Technology and Big Data, Manufacturing and IoT, Healthcare and Medicine, BFSI, E-commerce and Retail", "icon": "fas fa-chart-network", "bg": "gradient-bg", "dur": "3 Years"},
-        {"title": "Data Analytics", "sub": "B.Sc. DA", "desc": "Statistical Analysis, Business Intelligence, Data Visualization, Predictive Analytics, Data Mining", "icon": "fas fa-chart-bar", "bg": "tech-gradient", "dur": "3 Years"},
-        {"title": "Full Stack Web Development", "sub": "B.Sc. FSD", "desc": "Frontend Development, Backend Development, Databases, API Development, Cloud Deployment", "icon": "fas fa-laptop-code", "bg": "dark-gradient", "dur": "3 Years"},
-        {"title": "DevOps and Cloud", "sub": "B.Sc. DevOps", "desc": "Cloud Infrastructure, CI/CD Pipelines, Containerization, Kubernetes, Cloud Security", "icon": "fas fa-cloud", "bg": "tech-gradient", "dur": "3 Years"},
-        {"title": "Cyber Security", "sub": "B.Sc. Cyber Security", "desc": "Ethical Hacking, Network Security, Digital Forensics, Cryptography, Security Operations", "icon": "fas fa-shield-alt", "bg": "gradient-bg", "dur": "3 Years"},
+        {"title": "Artificial Intelligence and Data Science", "sub": "B.Sc. CS (AIDS)", "desc": "Artificial Intelligence, Machine Learning, Deep Learning, Data Structures and Algorithms, Big Data Analytics", "icon": "fas fa-brain", "bg": "tech-gradient", "dur": "3 Years"},
+        {"title": "Data Science", "sub": "B.Sc.CS(DS & Visualization)", "desc": "Technology and Big Data, Manufacturing and IoT, Healthcare and Medicine, BFSI, E-commerce and Retail", "icon": "fas fa-chart-network", "bg": "gradient-bg", "dur": "3 Years"},
+        {"title": "Data Analytics", "sub": "B.Sc.CS with DA", "desc": "Statistical Analysis, Business Intelligence, Data Visualization, Predictive Analytics, Data Mining", "icon": "fas fa-chart-bar", "bg": "tech-gradient", "dur": "3 Years"},
+        {"title": "Full Stack Web Development", "sub": "B.Sc.CS(FSWD)", "desc": "Frontend Development, Backend Development, Databases, API Development, Cloud Deployment", "icon": "fas fa-laptop-code", "bg": "dark-gradient", "dur": "3 Years"},
+        {"title": "DevOps and Cloud", "sub": "B.Sc.CS(DevOps and Cloud)", "desc": "Cloud Infrastructure, CI/CD Pipelines, Containerization, Kubernetes, Cloud Security", "icon": "fas fa-cloud", "bg": "tech-gradient", "dur": "3 Years"},
+        {"title": "Cyber Security", "sub": "B.Sc.CS with Cyber Security", "desc": "Ethical Hacking, Network Security, Digital Forensics, Cryptography, Security Operations", "icon": "fas fa-shield-alt", "bg": "gradient-bg", "dur": "3 Years"},
         {"title": "Computer Science (AI, ML & DS)", "sub": "B.Sc. CS (AI, ML & DS)", "desc": "Artificial Intelligence, Machine Learning Models, Neural Networks, Data Engineering, AI Applications", "icon": "fas fa-robot", "bg": "dark-gradient", "dur": "3 Years"},
-        {"title": "Agentic AI", "sub": "B.Sc. Agentic AI", "desc": "Autonomous AI Systems, AI Agents, Multi-Agent Systems, Decision Intelligence, AI Automation", "icon": "fas fa-microchip", "bg": "tech-gradient", "dur": "3 Years"},
-        {"title": "Generative AI", "sub": "B.Sc. GenAI", "desc": "Large Language Models, Prompt Engineering, AI Content Generation, Multimodal AI, AI Product Development", "icon": "fas fa-wand-magic-sparkles", "bg": "gradient-bg", "dur": "3 Years"}
+        {"title": "Agentic AI", "sub": "B.Sc. CS (Agentic AI)", "desc": "Autonomous AI Systems, AI Agents, Multi-Agent Systems, Decision Intelligence, AI Automation", "icon": "fas fa-microchip", "bg": "tech-gradient", "dur": "3 Years"},
+        {"title": "Generative AI", "sub": "B.Sc. CS (Generative AI)", "desc": "Large Language Models, Prompt Engineering, AI Content Generation, Multimodal AI, AI Product Development", "icon": "fas fa-wand-magic-sparkles", "bg": "gradient-bg", "dur": "3 Years"}
     ],
     "hot": [
         {"title": "Computer Applications", "sub": "BCA", "desc": "Programming Languages, Software Development, Web Technologies, Mobile Applications, Database Management", "icon": "fas fa-code", "bg": "tech-gradient", "dur": "3 Years"},
@@ -105,7 +105,7 @@ full_programs_html = f'''                <!-- UG Programs -->
                 <div class="mb-10">
                     <h3 class="font-display text-4xl font-bold text-center mb-12 text-white">
                         <i class="fas fa-graduation-cap text-red-500 mr-4"></i>
-                        9 Undergraduate Programs <span class="gradient-text">(Trending/Unique)</span>
+                        10 Undergraduate Programs <span class="gradient-text">(Trending/Unique)</span>
                     </h3>
                     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 {trending_html}
@@ -116,7 +116,7 @@ full_programs_html = f'''                <!-- UG Programs -->
                 <div class="mb-10">
                     <h3 class="font-display text-4xl font-bold text-center mb-12 text-white">
                         <i class="fas fa-fire text-red-500 mr-4"></i>
-                        6 Undergraduate Programs <span class="gradient-text">(Hot & Fast Moving)</span>
+                        7 Undergraduate Programs <span class="gradient-text">(Hot & Fast Moving)</span>
                     </h3>
                     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 {hot_html}
